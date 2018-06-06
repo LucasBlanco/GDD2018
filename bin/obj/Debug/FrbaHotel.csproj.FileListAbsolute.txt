@@ -16,6 +16,3 @@ C:\Users\lucas\Downloads\TP GEstion\Aplicacion Desktop\FrbaHotel\obj\Debug\FrbaH
 C:\Users\lucas\Downloads\TP GEstion\Aplicacion Desktop\FrbaHotel\bin\Debug\FrbaHotel.exe
 C:\Users\lucas\Downloads\TP GEstion\Aplicacion Desktop\FrbaHotel\bin\Debug\FrbaHotel.pdb
 C:\Users\lucas\Downloads\TP GEstion\Aplicacion Desktop\FrbaHotel\obj\Debug\FrbaHotel.csprojResolveAssemblyReference.cache
-C:\Users\lucas\Documents\Repositorios\GDD\GDD2018\bin\Debug\FrbaHotel.exe.config
-C:\Users\lucas\Documents\Repositorios\GDD\GDD2018\obj\Debug\FrbaHotel.exe
-C:\Users\lucas\Documents\Repositorios\GDD\GDD2018\obj\Debug\FrbaHotel.pdb

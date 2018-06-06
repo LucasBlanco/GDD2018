@@ -1,6 +1,6 @@
 ﻿namespace FrbaHotel.AbmUsuario
 {
-    partial class Funcionalidades
+    partial class Roles
     {
         /// <summary>
         /// Required designer variable.
@@ -29,36 +29,58 @@
         private void InitializeComponent()
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.funcionalidades_nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roles_nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roles_estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.roles_funcionalidades = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.funcionalidades_nombre});
-            this.dataGridView1.Location = new System.Drawing.Point(28, 25);
+            this.roles_nombre,
+            this.Estado,
+            this.roles_estado,
+            this.roles_funcionalidades});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 29);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(348, 356);
-            this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.Size = new System.Drawing.Size(501, 243);
+            this.dataGridView1.TabIndex = 0;
             // 
-            // funcionalidades_nombre
+            // roles_nombre
             // 
-            this.funcionalidades_nombre.HeaderText = "Nombre";
-            this.funcionalidades_nombre.Name = "funcionalidades_nombre";
+            this.roles_nombre.HeaderText = "Nombre";
+            this.roles_nombre.Name = "roles_nombre";
             // 
-            // Funcionalidades
+            // Estado
+            // 
+            this.Estado.HeaderText = "roles_estado";
+            this.Estado.Name = "Estado";
+            // 
+            // roles_estado
+            // 
+            this.roles_estado.HeaderText = "Estado";
+            this.roles_estado.Name = "roles_estado";
+            // 
+            // roles_funcionalidades
+            // 
+            this.roles_funcionalidades.HeaderText = "Funcionalidades";
+            this.roles_funcionalidades.Name = "roles_funcionalidades";
+            this.roles_funcionalidades.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.roles_funcionalidades.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Roles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 416);
+            this.ClientSize = new System.Drawing.Size(525, 307);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Funcionalidades";
-            this.Text = "Funcionalidades";
+            this.Name = "Roles";
+            this.Text = "Roles";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -67,6 +89,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn funcionalidades_nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn roles_nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
+        private System.Windows.Forms.DataGridViewTextBoxColumn roles_estado;
+        private System.Windows.Forms.DataGridViewButtonColumn roles_funcionalidades;
     }
 }

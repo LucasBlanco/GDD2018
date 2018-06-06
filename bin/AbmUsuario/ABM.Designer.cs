@@ -30,25 +30,7 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.alta_tipo = new System.Windows.Forms.ComboBox();
-            this.alta_hotel = new System.Windows.Forms.ComboBox();
-            this.alta_nacimiento = new System.Windows.Forms.DateTimePicker();
-            this.alta_direccion = new System.Windows.Forms.TextBox();
-            this.alta_mail = new System.Windows.Forms.TextBox();
-            this.alta_documento = new System.Windows.Forms.TextBox();
-            this.alta_telefono = new System.Windows.Forms.TextBox();
-            this.alta_nombre = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.alta_roles = new System.Windows.Forms.CheckedListBox();
             this.alta_password = new System.Windows.Forms.TextBox();
             this.alta_usuario = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -58,20 +40,29 @@
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.tabla_usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_roles = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.tabla_nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.talba_nacimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabla_hotel = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.modificar = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.alta_roles = new System.Windows.Forms.CheckedListBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.alta_mail = new System.Windows.Forms.TextBox();
+            this.alta_nombre = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.alta_telefono = new System.Windows.Forms.TextBox();
+            this.alta_direccion = new System.Windows.Forms.TextBox();
+            this.alta_nacimiento = new System.Windows.Forms.DateTimePicker();
+            this.alta_hotel = new System.Windows.Forms.ComboBox();
+            this.filtro_roles = new System.Windows.Forms.CheckedListBox();
+            this.filtro_documento = new System.Windows.Forms.TextBox();
+            this.filtro_usuario = new System.Windows.Forms.TextBox();
+            this.label = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.filtro_hotel = new System.Windows.Forms.ComboBox();
             this.filtro_nacimiento = new System.Windows.Forms.DateTimePicker();
             this.filtro_direccion = new System.Windows.Forms.TextBox();
@@ -84,23 +75,31 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.filtro_roles = new System.Windows.Forms.CheckedListBox();
-            this.filtro_usuario = new System.Windows.Forms.TextBox();
+            this.tabla_usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_roles = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.tabla_nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_documento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_mail = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_direccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.talba_nacimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tabla_hotel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.modificar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.eliminar = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label2 = new System.Windows.Forms.Label();
-            this.label = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label15 = new System.Windows.Forms.Label();
-            this.filtro_documento = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.alta_documento = new System.Windows.Forms.TextBox();
+            this.alta_tipo = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -129,177 +128,6 @@
             this.tabPage1.Text = "Alta";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.alta_tipo);
-            this.groupBox3.Controls.Add(this.alta_hotel);
-            this.groupBox3.Controls.Add(this.alta_nacimiento);
-            this.groupBox3.Controls.Add(this.alta_direccion);
-            this.groupBox3.Controls.Add(this.alta_mail);
-            this.groupBox3.Controls.Add(this.alta_documento);
-            this.groupBox3.Controls.Add(this.alta_telefono);
-            this.groupBox3.Controls.Add(this.alta_nombre);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.label20);
-            this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.label24);
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.label25);
-            this.groupBox3.Controls.Add(this.label26);
-            this.groupBox3.Controls.Add(this.label27);
-            this.groupBox3.Location = new System.Drawing.Point(52, 298);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(893, 254);
-            this.groupBox3.TabIndex = 17;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Datos persona";
-            // 
-            // alta_tipo
-            // 
-            this.alta_tipo.FormattingEnabled = true;
-            this.alta_tipo.Location = new System.Drawing.Point(570, 111);
-            this.alta_tipo.Name = "alta_tipo";
-            this.alta_tipo.Size = new System.Drawing.Size(252, 24);
-            this.alta_tipo.TabIndex = 14;
-            // 
-            // alta_hotel
-            // 
-            this.alta_hotel.FormattingEnabled = true;
-            this.alta_hotel.Location = new System.Drawing.Point(570, 205);
-            this.alta_hotel.Name = "alta_hotel";
-            this.alta_hotel.Size = new System.Drawing.Size(253, 24);
-            this.alta_hotel.TabIndex = 13;
-            // 
-            // alta_nacimiento
-            // 
-            this.alta_nacimiento.Location = new System.Drawing.Point(111, 205);
-            this.alta_nacimiento.Name = "alta_nacimiento";
-            this.alta_nacimiento.Size = new System.Drawing.Size(299, 22);
-            this.alta_nacimiento.TabIndex = 12;
-            // 
-            // alta_direccion
-            // 
-            this.alta_direccion.Location = new System.Drawing.Point(571, 154);
-            this.alta_direccion.Margin = new System.Windows.Forms.Padding(4);
-            this.alta_direccion.Name = "alta_direccion";
-            this.alta_direccion.Size = new System.Drawing.Size(252, 22);
-            this.alta_direccion.TabIndex = 11;
-            // 
-            // alta_mail
-            // 
-            this.alta_mail.Location = new System.Drawing.Point(571, 69);
-            this.alta_mail.Margin = new System.Windows.Forms.Padding(4);
-            this.alta_mail.Name = "alta_mail";
-            this.alta_mail.Size = new System.Drawing.Size(252, 22);
-            this.alta_mail.TabIndex = 11;
-            // 
-            // alta_documento
-            // 
-            this.alta_documento.Location = new System.Drawing.Point(111, 111);
-            this.alta_documento.Margin = new System.Windows.Forms.Padding(4);
-            this.alta_documento.Name = "alta_documento";
-            this.alta_documento.Size = new System.Drawing.Size(299, 22);
-            this.alta_documento.TabIndex = 11;
-            // 
-            // alta_telefono
-            // 
-            this.alta_telefono.Location = new System.Drawing.Point(111, 152);
-            this.alta_telefono.Margin = new System.Windows.Forms.Padding(4);
-            this.alta_telefono.Name = "alta_telefono";
-            this.alta_telefono.Size = new System.Drawing.Size(299, 22);
-            this.alta_telefono.TabIndex = 11;
-            // 
-            // alta_nombre
-            // 
-            this.alta_nombre.Location = new System.Drawing.Point(111, 65);
-            this.alta_nombre.Margin = new System.Windows.Forms.Padding(4);
-            this.alta_nombre.Name = "alta_nombre";
-            this.alta_nombre.Size = new System.Drawing.Size(299, 22);
-            this.alta_nombre.TabIndex = 11;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.label14.Location = new System.Drawing.Point(496, 116);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(36, 17);
-            this.label14.TabIndex = 8;
-            this.label14.Text = "Tipo";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.label20.Location = new System.Drawing.Point(491, 209);
-            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(41, 17);
-            this.label20.TabIndex = 8;
-            this.label20.Text = "Hotel";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.label21.Location = new System.Drawing.Point(491, 161);
-            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(67, 17);
-            this.label21.TabIndex = 8;
-            this.label21.Text = "Direccion";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.label24.Location = new System.Drawing.Point(491, 69);
-            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(33, 17);
-            this.label24.TabIndex = 8;
-            this.label24.Text = "Mail";
-            // 
-            // label13
-            // 
-            this.label13.Location = new System.Drawing.Point(0, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(100, 23);
-            this.label13.TabIndex = 15;
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(24, 205);
-            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(78, 17);
-            this.label25.TabIndex = 10;
-            this.label25.Text = "Nacimiento";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(24, 157);
-            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(64, 17);
-            this.label26.TabIndex = 10;
-            this.label26.Text = "Telefono";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(24, 65);
-            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(58, 17);
-            this.label27.TabIndex = 10;
-            this.label27.Text = "Nombre";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.alta_roles);
@@ -316,14 +144,6 @@
             this.groupBox1.TabIndex = 16;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos usuario";
-            // 
-            // alta_roles
-            // 
-            this.alta_roles.FormattingEnabled = true;
-            this.alta_roles.Location = new System.Drawing.Point(111, 112);
-            this.alta_roles.Name = "alta_roles";
-            this.alta_roles.Size = new System.Drawing.Size(299, 89);
-            this.alta_roles.TabIndex = 13;
             // 
             // alta_password
             // 
@@ -433,86 +253,23 @@
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // tabla_usuario
-            // 
-            this.tabla_usuario.HeaderText = "Usuario";
-            this.tabla_usuario.Name = "tabla_usuario";
-            // 
-            // tabla_roles
-            // 
-            this.tabla_roles.HeaderText = "Roles";
-            this.tabla_roles.Name = "tabla_roles";
-            this.tabla_roles.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.tabla_roles.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // tabla_nombre
-            // 
-            this.tabla_nombre.HeaderText = "Nombre";
-            this.tabla_nombre.Name = "tabla_nombre";
-            // 
-            // tabla_documento
-            // 
-            this.tabla_documento.HeaderText = "Documento";
-            this.tabla_documento.Name = "tabla_documento";
-            // 
-            // tabla_tipo
-            // 
-            this.tabla_tipo.HeaderText = "Tipo";
-            this.tabla_tipo.Name = "tabla_tipo";
-            // 
-            // tabla_mail
-            // 
-            this.tabla_mail.HeaderText = "Mail";
-            this.tabla_mail.Name = "tabla_mail";
-            // 
-            // tabla_telefono
-            // 
-            this.tabla_telefono.HeaderText = "Telefono";
-            this.tabla_telefono.Name = "tabla_telefono";
-            // 
-            // tabla_direccion
-            // 
-            this.tabla_direccion.HeaderText = "Direccion";
-            this.tabla_direccion.Name = "tabla_direccion";
-            // 
-            // talba_nacimiento
-            // 
-            this.talba_nacimiento.HeaderText = "Nacimiento";
-            this.talba_nacimiento.Name = "talba_nacimiento";
-            // 
-            // tabla_hotel
-            // 
-            this.tabla_hotel.HeaderText = "Hotel";
-            this.tabla_hotel.Name = "tabla_hotel";
-            // 
-            // modificar
-            // 
-            this.modificar.HeaderText = "Modificar";
-            this.modificar.Name = "modificar";
-            // 
-            // eliminar
-            // 
-            this.eliminar.HeaderText = "Eliminar";
-            this.eliminar.Name = "eliminar";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.comboBox2);
             this.groupBox2.Controls.Add(this.filtro_hotel);
             this.groupBox2.Controls.Add(this.filtro_nacimiento);
             this.groupBox2.Controls.Add(this.filtro_direccion);
-            this.groupBox2.Controls.Add(this.filtro_documento);
             this.groupBox2.Controls.Add(this.filtro_mail);
             this.groupBox2.Controls.Add(this.filtro_telefono);
             this.groupBox2.Controls.Add(this.filtro_nombre);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.filtro_roles);
+            this.groupBox2.Controls.Add(this.filtro_documento);
             this.groupBox2.Controls.Add(this.filtro_usuario);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label);
@@ -529,13 +286,226 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Filtros";
             // 
-            // comboBox2
+            // button3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(483, 34);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(79, 24);
-            this.comboBox2.TabIndex = 43;
+            this.button3.Location = new System.Drawing.Point(670, 203);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(100, 28);
+            this.button3.TabIndex = 24;
+            this.button3.Text = "Limpiar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(791, 203);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(100, 28);
+            this.button4.TabIndex = 23;
+            this.button4.Text = "Buscar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // alta_roles
+            // 
+            this.alta_roles.FormattingEnabled = true;
+            this.alta_roles.Location = new System.Drawing.Point(111, 112);
+            this.alta_roles.Name = "alta_roles";
+            this.alta_roles.Size = new System.Drawing.Size(299, 89);
+            this.alta_roles.TabIndex = 13;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.alta_tipo);
+            this.groupBox3.Controls.Add(this.alta_hotel);
+            this.groupBox3.Controls.Add(this.alta_nacimiento);
+            this.groupBox3.Controls.Add(this.alta_direccion);
+            this.groupBox3.Controls.Add(this.alta_mail);
+            this.groupBox3.Controls.Add(this.alta_documento);
+            this.groupBox3.Controls.Add(this.alta_telefono);
+            this.groupBox3.Controls.Add(this.alta_nombre);
+            this.groupBox3.Controls.Add(this.label14);
+            this.groupBox3.Controls.Add(this.label20);
+            this.groupBox3.Controls.Add(this.label21);
+            this.groupBox3.Controls.Add(this.label24);
+            this.groupBox3.Controls.Add(this.label13);
+            this.groupBox3.Controls.Add(this.label25);
+            this.groupBox3.Controls.Add(this.label26);
+            this.groupBox3.Controls.Add(this.label27);
+            this.groupBox3.Location = new System.Drawing.Point(52, 298);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(893, 254);
+            this.groupBox3.TabIndex = 17;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Datos persona";
+            // 
+            // alta_mail
+            // 
+            this.alta_mail.Location = new System.Drawing.Point(571, 69);
+            this.alta_mail.Margin = new System.Windows.Forms.Padding(4);
+            this.alta_mail.Name = "alta_mail";
+            this.alta_mail.Size = new System.Drawing.Size(252, 22);
+            this.alta_mail.TabIndex = 11;
+            // 
+            // alta_nombre
+            // 
+            this.alta_nombre.Location = new System.Drawing.Point(111, 65);
+            this.alta_nombre.Margin = new System.Windows.Forms.Padding(4);
+            this.alta_nombre.Name = "alta_nombre";
+            this.alta_nombre.Size = new System.Drawing.Size(299, 22);
+            this.alta_nombre.TabIndex = 11;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.label20.Location = new System.Drawing.Point(491, 209);
+            this.label20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(41, 17);
+            this.label20.TabIndex = 8;
+            this.label20.Text = "Hotel";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.label21.Location = new System.Drawing.Point(491, 161);
+            this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(67, 17);
+            this.label21.TabIndex = 8;
+            this.label21.Text = "Direccion";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.label24.Location = new System.Drawing.Point(491, 69);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(33, 17);
+            this.label24.TabIndex = 8;
+            this.label24.Text = "Mail";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(24, 205);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(78, 17);
+            this.label25.TabIndex = 10;
+            this.label25.Text = "Nacimiento";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(24, 157);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(64, 17);
+            this.label26.TabIndex = 10;
+            this.label26.Text = "Telefono";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(24, 65);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(58, 17);
+            this.label27.TabIndex = 10;
+            this.label27.Text = "Nombre";
+            // 
+            // alta_telefono
+            // 
+            this.alta_telefono.Location = new System.Drawing.Point(111, 152);
+            this.alta_telefono.Margin = new System.Windows.Forms.Padding(4);
+            this.alta_telefono.Name = "alta_telefono";
+            this.alta_telefono.Size = new System.Drawing.Size(299, 22);
+            this.alta_telefono.TabIndex = 11;
+            // 
+            // alta_direccion
+            // 
+            this.alta_direccion.Location = new System.Drawing.Point(571, 154);
+            this.alta_direccion.Margin = new System.Windows.Forms.Padding(4);
+            this.alta_direccion.Name = "alta_direccion";
+            this.alta_direccion.Size = new System.Drawing.Size(252, 22);
+            this.alta_direccion.TabIndex = 11;
+            // 
+            // alta_nacimiento
+            // 
+            this.alta_nacimiento.Location = new System.Drawing.Point(111, 205);
+            this.alta_nacimiento.Name = "alta_nacimiento";
+            this.alta_nacimiento.Size = new System.Drawing.Size(299, 22);
+            this.alta_nacimiento.TabIndex = 12;
+            // 
+            // alta_hotel
+            // 
+            this.alta_hotel.FormattingEnabled = true;
+            this.alta_hotel.Location = new System.Drawing.Point(570, 205);
+            this.alta_hotel.Name = "alta_hotel";
+            this.alta_hotel.Size = new System.Drawing.Size(253, 24);
+            this.alta_hotel.TabIndex = 13;
+            // 
+            // filtro_roles
+            // 
+            this.filtro_roles.FormattingEnabled = true;
+            this.filtro_roles.Location = new System.Drawing.Point(651, 34);
+            this.filtro_roles.Name = "filtro_roles";
+            this.filtro_roles.Size = new System.Drawing.Size(245, 55);
+            this.filtro_roles.TabIndex = 30;
+            // 
+            // filtro_documento
+            // 
+            this.filtro_documento.Location = new System.Drawing.Point(320, 34);
+            this.filtro_documento.Margin = new System.Windows.Forms.Padding(4);
+            this.filtro_documento.Name = "filtro_documento";
+            this.filtro_documento.Size = new System.Drawing.Size(112, 22);
+            this.filtro_documento.TabIndex = 28;
+            // 
+            // filtro_usuario
+            // 
+            this.filtro_usuario.Location = new System.Drawing.Point(95, 34);
+            this.filtro_usuario.Margin = new System.Windows.Forms.Padding(4);
+            this.filtro_usuario.Name = "filtro_usuario";
+            this.filtro_usuario.Size = new System.Drawing.Size(159, 22);
+            this.filtro_usuario.TabIndex = 29;
+            // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.label.Location = new System.Drawing.Point(279, 34);
+            this.label.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(37, 17);
+            this.label.TabIndex = 25;
+            this.label.Text = "Doc.";
+            this.label.Click += new System.EventHandler(this.label_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(604, 34);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 17);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Rol";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(30, 34);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(57, 17);
+            this.label5.TabIndex = 27;
+            this.label5.Text = "Usuario";
             // 
             // filtro_hotel
             // 
@@ -647,21 +617,67 @@
             this.label12.TabIndex = 36;
             this.label12.Text = "Nombre";
             // 
-            // filtro_roles
+            // tabla_usuario
             // 
-            this.filtro_roles.FormattingEnabled = true;
-            this.filtro_roles.Location = new System.Drawing.Point(651, 34);
-            this.filtro_roles.Name = "filtro_roles";
-            this.filtro_roles.Size = new System.Drawing.Size(245, 55);
-            this.filtro_roles.TabIndex = 30;
+            this.tabla_usuario.HeaderText = "Usuario";
+            this.tabla_usuario.Name = "tabla_usuario";
             // 
-            // filtro_usuario
+            // tabla_roles
             // 
-            this.filtro_usuario.Location = new System.Drawing.Point(95, 34);
-            this.filtro_usuario.Margin = new System.Windows.Forms.Padding(4);
-            this.filtro_usuario.Name = "filtro_usuario";
-            this.filtro_usuario.Size = new System.Drawing.Size(159, 22);
-            this.filtro_usuario.TabIndex = 29;
+            this.tabla_roles.HeaderText = "Roles";
+            this.tabla_roles.Name = "tabla_roles";
+            this.tabla_roles.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.tabla_roles.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // tabla_nombre
+            // 
+            this.tabla_nombre.HeaderText = "Nombre";
+            this.tabla_nombre.Name = "tabla_nombre";
+            // 
+            // tabla_documento
+            // 
+            this.tabla_documento.HeaderText = "Documento";
+            this.tabla_documento.Name = "tabla_documento";
+            // 
+            // tabla_tipo
+            // 
+            this.tabla_tipo.HeaderText = "Tipo";
+            this.tabla_tipo.Name = "tabla_tipo";
+            // 
+            // tabla_mail
+            // 
+            this.tabla_mail.HeaderText = "Mail";
+            this.tabla_mail.Name = "tabla_mail";
+            // 
+            // tabla_telefono
+            // 
+            this.tabla_telefono.HeaderText = "Telefono";
+            this.tabla_telefono.Name = "tabla_telefono";
+            // 
+            // tabla_direccion
+            // 
+            this.tabla_direccion.HeaderText = "Direccion";
+            this.tabla_direccion.Name = "tabla_direccion";
+            // 
+            // talba_nacimiento
+            // 
+            this.talba_nacimiento.HeaderText = "Nacimiento";
+            this.talba_nacimiento.Name = "talba_nacimiento";
+            // 
+            // tabla_hotel
+            // 
+            this.tabla_hotel.HeaderText = "Hotel";
+            this.tabla_hotel.Name = "tabla_hotel";
+            // 
+            // modificar
+            // 
+            this.modificar.HeaderText = "Modificar";
+            this.modificar.Name = "modificar";
+            // 
+            // eliminar
+            // 
+            this.eliminar.HeaderText = "Eliminar";
+            this.eliminar.Name = "eliminar";
             // 
             // label2
             // 
@@ -674,71 +690,51 @@
             this.label2.TabIndex = 25;
             this.label2.Text = "Tipo";
             // 
-            // label
+            // label13
             // 
-            this.label.Location = new System.Drawing.Point(0, 0);
-            this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(100, 23);
-            this.label.TabIndex = 44;
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(24, 111);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(80, 17);
+            this.label13.TabIndex = 10;
+            this.label13.Text = "Documento";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // label4
+            // label14
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(604, 34);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(29, 17);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Rol";
+            this.label14.AutoSize = true;
+            this.label14.Cursor = System.Windows.Forms.Cursors.SizeNS;
+            this.label14.Location = new System.Drawing.Point(496, 116);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(36, 17);
+            this.label14.TabIndex = 8;
+            this.label14.Text = "Tipo";
             // 
-            // label5
+            // alta_documento
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 34);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 17);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "Usuario";
+            this.alta_documento.Location = new System.Drawing.Point(111, 111);
+            this.alta_documento.Margin = new System.Windows.Forms.Padding(4);
+            this.alta_documento.Name = "alta_documento";
+            this.alta_documento.Size = new System.Drawing.Size(299, 22);
+            this.alta_documento.TabIndex = 11;
             // 
-            // button3
+            // alta_tipo
             // 
-            this.button3.Location = new System.Drawing.Point(670, 203);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 28);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "Limpiar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.alta_tipo.FormattingEnabled = true;
+            this.alta_tipo.Location = new System.Drawing.Point(570, 111);
+            this.alta_tipo.Name = "alta_tipo";
+            this.alta_tipo.Size = new System.Drawing.Size(252, 24);
+            this.alta_tipo.TabIndex = 14;
             // 
-            // button4
+            // comboBox2
             // 
-            this.button4.Location = new System.Drawing.Point(791, 203);
-            this.button4.Margin = new System.Windows.Forms.Padding(4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 28);
-            this.button4.TabIndex = 23;
-            this.button4.Text = "Buscar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Cursor = System.Windows.Forms.Cursors.SizeNS;
-            this.label15.Location = new System.Drawing.Point(279, 37);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(37, 17);
-            this.label15.TabIndex = 33;
-            this.label15.Text = "Doc.";
-            // 
-            // filtro_documento
-            // 
-            this.filtro_documento.Location = new System.Drawing.Point(312, 34);
-            this.filtro_documento.Margin = new System.Windows.Forms.Padding(4);
-            this.filtro_documento.Name = "filtro_documento";
-            this.filtro_documento.Size = new System.Drawing.Size(120, 22);
-            this.filtro_documento.TabIndex = 38;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(483, 34);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(79, 24);
+            this.comboBox2.TabIndex = 43;
             // 
             // ABM
             // 
@@ -753,14 +749,14 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -821,6 +817,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.CheckedListBox filtro_roles;
+        private System.Windows.Forms.TextBox filtro_documento;
         private System.Windows.Forms.TextBox filtro_usuario;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label;
@@ -831,7 +828,5 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox filtro_documento;
-        private System.Windows.Forms.Label label15;
     }
 }
